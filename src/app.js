@@ -28,7 +28,7 @@ class Player {
     this.id = id;
     this.name = name;
     this.strength = this.getRandomStrength();
-    this.image = `images/super-${id}.png`;
+    this.image = `images/super-${id+1}.png`;
     this.type = type;
   }
   // getting random strength
